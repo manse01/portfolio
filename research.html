@@ -1,0 +1,76 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="master.css">
+
+
+  <div class="topnav">
+  <a class="active" href="index.html">About</a>
+  <a href="research.html">Research</a>
+  <a href= "community.html" >Jewish Community</a>
+  <a href= "israel.html">Work in Israel</a>
+  <a href="news.html">News</a>
+
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/sethsam414" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/sethsam414/?hl=en" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/seth-manilove-a5b123b7/" class="fa fa-linkedin"></a>
+
+...
+</div>
+  <title>About</title>
+  <h1> Seth Manilove: The Not-So-Typical Pre-Medical Student</h1>
+  <p> Seth Manilove has contributed to the scientific world in a variety of ways. During his first two semesters at the University of Miami (Fall 2014, Spring 2015), Seth participated in the Howard Hughes Medical Institute Biology Laboratory. This is an opportunity reserved for a select group of Undergradutes who have demonstrated a high aptitude for research. Student teams engage in two inquiry -based laboratory research projects, each lasting six weeks, per semester.<br> <br> Aside from his work at the University of Miami, in 2014 he performed research at the University of Florida. His project titled: The Site Directed Mutagenesis of Mutations E35D and H69K of Hiv-1 Protease won First Place at the Broward County Science Fair. This granted him a trip to the 2014 State Science Fair of Florida, where his project won fourth place.
+     </p>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <div class="slider">
+    <div><img src="images/Pre-Health Mentor.jpg"> <h4> Seth with Igor Khoklov and Pre-health mentor, Dr. Allen Levitt.</h4>  </div>
+    <div><img src="images/research1.jpg"> <h4> Howard Hughes Medical Institute Research Laboratory</h4> </div>
+    <div><img src="images/Science Fair.jpg"><h4>  Seth with his First Place Project prior to departing to the State Science Fair of Florida. </h4> </div>
+    <div><img src="images/borabora4.jpg"> <h4>  Bora Bora Helicopter View  </h4> </div>
+    <div><img src="images/borabora5.jpeg"> <h4> The Otemanu island off the coast of Bora Bora </h4> </div>
+    </div>
+  </div>
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+</body>
+<footer>Copyright Seth Manilove 2018</footer>
+</html>

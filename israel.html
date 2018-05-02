@@ -1,0 +1,75 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="master.css">
+
+
+  <div class="topnav">
+  <a class="active" href="index.html">About</a>
+  <a href="research.html">Research</a>
+  <a href= "community.html" >Jewish Community</a>
+  <a href= "israel.html">Work in Israel</a>
+  <a href="news.html">News</a>
+
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/sethsam414" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/sethsam414/?hl=en" class="fa fa-instagram"></a>
+<a href="https://www.linkedin.com/in/seth-manilove-a5b123b7/" class="fa fa-linkedin"></a>
+
+...
+</div>
+  <title>About</title>
+  <h1> Seth Manilove: The Not-So-Typical Pre-Medical Student</h1>
+  <p> Seth Manilove spent the Summer of 2017 abroad in Israel. He participated in a 16 day Leadership Training program, in which he received practical training in public speaking, social media content creation and management, and other effective ways to defeat anti-Israel campaigns. <br> <br> He then participated in Ownard Israel which allows fifteen hundred American college students to intern for cutting edge Israeli companies. Seth worked for Taliaz Health in Tel Aviv, Israel, a Biotech company specializing in Pharmacogenomics and Personalized Medicine. He assisted their Biological Research team. Seth spoke at the International Convention Center in Jerusalem about his experience of stepping out of his comfort zone and working in Israel. </p>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <div class="slider">
+    <div><img src="images/Website 2.jpg"><h4> Seth working at Taliaz Health in Tel Aviv, Israel.</h4></div>
+    <div><img src="images/Website 8.jpg"> <h4> Seth speaking at the International Convention Center in Jerusalem, Israel in front of the 1500 Onward Israel participants, employers, and staff. </h4></div>
+    <div><img src="images/borabora3.jpeg"> Surfing at the Bora Bora Island Club </div>
+    <div><img src="images/borabora4.jpg">  Bora Bora Helicopter View  </div>
+    <div><img src="images/borabora5.jpeg"> The Otemanu island off the coast of Bora Bora </div>
+    </div>
+  </div>
+  <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+</body>
+<footer>Copyright Seth Manilove 2018</footer>
+</html>
