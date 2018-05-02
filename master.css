@@ -65,6 +65,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    max-width: 400px;
+
 }
 * {
     box-sizing: border-box;
@@ -154,6 +156,18 @@ h4 {
   text-align: center;
   font-family: georgia;
   letter-spacing: 2px;
+}
+h2 {
+  margin-top: 25px;
+   font-size: 21px;
+   text-align: center;
+
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+
 }
 
 /* Add a black background color to the top navigation */
