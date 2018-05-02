@@ -32,6 +32,8 @@ p {
   font-family: georgia;
   letter-spacing: 2px;
   font-size: 14pt;
+  margin-right: 120px;
+  margin-left: 120px;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
